@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a onclick="location.reload()">Home</a>
+        <p onclick="location.reload()">Text Generator</p>
+        <p onclick="location.reload()">About Us</p>
+      </nav>
+    </header>
+    <div class="inputBox">
+      <div id="inputBox">
+        <input id="text" type="text" placeholder="Enter text" />
+        <input id="number" type="text" placeholder="Enter number" />
+        <button id="submit" onclick="generate()">Submit</button>
+        <button id="reset" onclick="reset()">Reset</button>
+        <button id="copy" onclick="copy()">Copy</button>
+      </div>
+    </div>
+    <div id="outputBox"></div>
+    <footer><p>Copyright @Text Generator since 2024</p></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
